@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0px;
+}
+
+/* Top-bar section */
+
+/* logo-search-child section */
+
+.logo-search-child{
+  display: flex;
+  align-items: center;
+}
+
+.top-bar{
+  width: 100vw;
+  height: 5.2vh;
+  background-color: #17407B;
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-bar-logo{
+  height: 4.6vh;
+  border-radius: 50%;
+  margin-top:0.3vh;
+  cursor: pointer;
+}
+
+.search-wrapper{
+  margin-left: 10px;
+  display: flex;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.search-bar{
+  border:0px;
+  border-radius: 25px;
+  /* padding-left: 15px; */
+  text-indent: 15px;
+  height: 2.9vh;
+}
+
+.search-bar:focus{
+  outline: none;
+}
+
+.search-fav-wrapper{
+  align-self:center;
+  
+}
+
+.search-fav{
+  height: 1.8vh;
+  margin-right: 0.5vw;
+  padding-left: 0.1vw;
+  margin-top:0.1vh;
+  cursor: pointer;
+}
+
+/* notification-settings-child section */
+
+.notification-settings-child{
+  display: flex;
+}
+
+.notification-profile-pic
+{
+  height: 4.6vh;
+  margin-top:0.3vh;
+  border-radius: 50%;
+}
+
+.notification-panel-pic
+{
+  height: 2.8vh;
+  margin-top: 1.2vh;
+  margin-left:0.3vw;
+}
+
+/*main-wrapper section*/
+
+.main-wrapper{
+  display: flex;
+}
+
+/*right-side-bar section*/
+
+.right-side-bar{
+  -webkit-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  margin-top:50px;
+  margin-left:50px;
+  padding: 1%;
+}
+
+.ad-img{
+  width: 300px;
+}
+
+.ad-texts-wrapper{
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.ad-texts-wrapper p{
+  margin-left: 10px;
+}
+
+
+
